@@ -100,3 +100,4 @@ class ManipulatingData(DownloadFiles):
         self.get_criteria_for_ranking_movies()
         self.get_alternative_names_for_needed_movies()
         self.get_most_credited_actors()
+        spark.stop()
