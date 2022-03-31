@@ -16,4 +16,8 @@ You need to have pipenv installed for managing the dependencies: `pip install pi
 
 ### Execution
 
-Run the run.py file
+Run the script: `python app.py`
+
+### Note
+The script is working locally on windows 10, didn't test it on other OS.
+Recommend to use pipenv==2018.11.26 because I've struggled with 2020+ versions
